@@ -1,9 +1,3 @@
-# Current Song to Slack
+# Send current Spotify track to Spotify
 
-When this script is compiled as an application, it will send the song/artist currently playing
-in Spotify, Rdio, or iTunes to the specified Slack channel. Incoming WebHooks for Slack
-must be enabled.
-
-## TODO
-
-* Test if media is streaming over airplay (can't do without opening iTunes)
+This is a heavily modified script that was built on the original script by https://github.com/beaksandclaws. This is designed to simply take the current track and send it to spotify. To configure it you will need a slack incoming webhook URL. (https://api.slack.com/incoming-webhooks)
